@@ -1,5 +1,5 @@
 # Backend (Flask)
- cd .\backend\
+ cd .\blog-for-crud-operation-backend\
 
 ## create virtual env
 python -m venv venv
