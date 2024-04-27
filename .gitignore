@@ -1,30 +1,30 @@
-# # Flask
-# # Ignore virtual environment
-# venv/
-# .venv/
+# Flask
+# Ignore virtual environment
+venv/
+.venv/
 
-# # Compiled files (adjust based on your build tools)
-# __pycache__/
-# *.pyc
+# Compiled files (adjust based on your build tools)
+__pycache__/
+*.pyc
 
-# # Static assets (production use)
-# static/
+# Static assets (production use)
+static/
 
-# # IDE or editor specific files
-# # (adjust based on your IDE)
-# .idea/
-# .vscode/
-# .DS_Store*
-# *.sublime*
+# IDE or editor specific files
+# (adjust based on your IDE)
+.idea/
+.vscode/
+.DS_Store*
+*.sublime*
 
-# # Temporary testing or debugging files
-# *.log
-# testing/
+# Temporary testing or debugging files
+*.log
+testing/
 
-# # Secret files
-# .env*
-# .secret*
-# secrets.json
+# Secret files
+.env*
+.secret*
+secrets.json
 
-# # Coverage reports
-# coverage/
+# Coverage reports
+coverage/
