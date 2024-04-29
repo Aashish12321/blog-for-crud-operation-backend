@@ -6,10 +6,6 @@ from sqlalchemy import Column
 from flask_cors import CORS
 
 app = Flask(__name__)
-
-port = int(os.getenv("PORT", 5000))
-
-
 CORS(app)
 
 
@@ -112,6 +108,6 @@ def delete_post(post_id):
 
 
 if __name__ == '__main__':
-    app.run(host='0.0.0.0', port=port)
+    app.run()
 
 
