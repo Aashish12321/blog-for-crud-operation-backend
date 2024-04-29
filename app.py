@@ -40,7 +40,7 @@ class Post(db.Model):
             'id': self.id,
             'title': self.title,
             'content': self.content,
-            'date_posted': self.date_posted.isoformat()  # Convert datetime to ISO format
+            'date_posted': self.date_posted.isoformat() 
         }
 
 
@@ -68,7 +68,7 @@ def create_post():
 
     new_post = Post(title=data['title'], content=data['content'])
     db.session.add(new_post)
-    
+
     try:
         db.session.commit()
     except Exception as e:
