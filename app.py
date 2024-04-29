@@ -106,8 +106,3 @@ def delete_post(post_id):
     except Exception as e:
         return jsonify({'error': f'Error deleting post: {str(e)}'}), 500
 
-
-if __name__ == '__main__':
-    app.run()
-
-
